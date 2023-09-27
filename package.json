@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": "please-use-yarn"
   },
   "dependencies": {
     "@types/node": "20.6.3",
@@ -18,5 +23,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
   }
 }
