@@ -10,8 +10,7 @@
     "prettier": "prettier --write ."
   },
   "engines": {
-    "node": ">=20.0.0",
-    "npm": "please-use-yarn"
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@types/node": "20.6.3",

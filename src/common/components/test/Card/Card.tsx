@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import styles from './Card.module.css';
+import styles from './card.module.css';
 
 interface CardProps {
   href: string;
